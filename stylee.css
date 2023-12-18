@@ -1,0 +1,141 @@
+body{
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    /* background: #001e4d; */
+}
+.headerson{
+    display: flex;
+    justify-content: space-between;
+}
+.rightside{
+    display: flex;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all .23s;
+    margin: 20px 50px;
+    font-size: 25px;
+    cursor: pointer;
+
+}
+.rightside div:hover{
+    color: black;
+}
+.rightside div{
+    transition: all .23s;
+    padding: 10px;
+}
+.leftside{
+    color: #2d2e32;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 25px;
+    margin: 20px 50px;
+    color: white;
+    padding: 10px;
+}
+.waveimage img{
+    width: 50px;
+}
+.bodysection{
+    /* border: 1px solid black; */
+    height: 600px;
+}
+.godson{
+  margin-top: 10em;
+  margin-left: 20em;
+  display: flex;
+}
+.parag{
+    margin-left: 20em;
+    color: white;
+    font-family: Mulish,sans-serif;
+    font-size: 1.0rem;
+    font-weight: 500;
+    line-height: 1.6;
+}
+.imgpoto img {
+    -webkit-animation: morph 8s ease-in-out infinite;
+    animation: morph 8s ease-in-out infinite;
+    background-image: url(/static/media/pfp_webp.f334283….webp);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid #2d2e32;
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    height: 25rem;
+    position: relative;
+    transition: all 1s ease-in-out;
+    width: 25rem;
+}
+.sonofsection{
+    display: flex;
+}
+.imgpoto img{
+    margin-top: 5em;
+    margin-left: 5em;
+}
+.godson h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+.infoaboutme{
+  margin-left: 15em;
+  /* margin-top: -10px; */
+  color: white;
+  font-family: Mulish,sans-serif;
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 1.6;
+  margin-top: -10px;
+}
+
+.github img{
+    width: 40px;
+    cursor: pointer;
+}
+.linkedin img{
+    width: 40px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+.linkedin img:hover{
+    color: white;
+}
+.theirbody{
+    display: flex;
+    margin-left: 20em;
+    margin-top: -70px;
+    
+    
+}
+.logoebi img{
+    width: 40px;
+    
+}
+.logoebi svg{
+    width: 80px;
+}
+/* .languageimg{
+    display: flex;
+} */
+.languageimg{
+    display: flex;
+    align-items: center;
+    margin-left: 19em;
+    color: white;
+    
+}
+.tech{
+    font-size: 40px;
+    margin-right: 70px;
+}
+.logoebi img{
+    padding-right: 20px;
+}
+
+.parenlang{
+    margin-top: 40px;
+    height: 5rem;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
